@@ -1,0 +1,8 @@
+Mobile code analysis in this environment is failing with:
+
+  bash: line 1: ./gradlew: No such file or directory
+
+This is an infrastructure/project-wrapper issue related to the Android container analysis runner,
+not the FastAPI backend.
+
+Backend changes for the REST API are complete; do not attempt to fix this from the backend container.
